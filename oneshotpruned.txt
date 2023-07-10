@@ -1,0 +1,1509 @@
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+==> Peforming One-Shot Pruning with Sparsity Ratio of: 0.5
+==> Building model..
+==> Loading Pre-trained Model..
+==> List Names of Layers and Corresponding Params..
+Name of conv layer: module.conv1 | Contained Params: weight
+Name of conv layer: module.layer1.0.conv1 | Contained Params: weight
+Name of conv layer: module.layer1.0.conv2 | Contained Params: weight
+Name of conv layer: module.layer1.1.conv1 | Contained Params: weight
+Name of conv layer: module.layer1.1.conv2 | Contained Params: weight
+Name of conv layer: module.layer2.0.conv1 | Contained Params: weight
+Name of conv layer: module.layer2.0.conv2 | Contained Params: weight
+Name of conv layer: module.layer2.0.shortcut.0 | Contained Params: weight
+Name of conv layer: module.layer2.1.conv1 | Contained Params: weight
+Name of conv layer: module.layer2.1.conv2 | Contained Params: weight
+Name of conv layer: module.layer3.0.conv1 | Contained Params: weight
+Name of conv layer: module.layer3.0.conv2 | Contained Params: weight
+Name of conv layer: module.layer3.0.shortcut.0 | Contained Params: weight
+Name of conv layer: module.layer3.1.conv1 | Contained Params: weight
+Name of conv layer: module.layer3.1.conv2 | Contained Params: weight
+Name of conv layer: module.layer4.0.conv1 | Contained Params: weight
+Name of conv layer: module.layer4.0.conv2 | Contained Params: weight
+Name of conv layer: module.layer4.0.shortcut.0 | Contained Params: weight
+Name of conv layer: module.layer4.1.conv1 | Contained Params: weight
+Name of conv layer: module.layer4.1.conv2 | Contained Params: weight
+Name of linear layer: module.linear | Contained Params: weight
+
+==> Perform Global Pruning..
+==> List Sparsity of Individual Layers..
+Sparsity inmodule.conv1.weight: 48.21%
+Sparsity inmodule.layer1.0.conv1.weight: 49.78%
+Sparsity inmodule.layer1.0.conv2.weight: 50.06%
+Sparsity inmodule.layer1.1.conv1.weight: 49.99%
+Sparsity inmodule.layer1.1.conv2.weight: 49.52%
+Sparsity inmodule.layer2.0.conv1.weight: 49.79%
+Sparsity inmodule.layer2.0.conv2.weight: 50.05%
+Sparsity inmodule.layer2.0.shortcut.0.weight: 49.50%
+Sparsity inmodule.layer2.1.conv1.weight: 50.16%
+Sparsity inmodule.layer2.1.conv2.weight: 50.25%
+Sparsity inmodule.layer3.0.conv1.weight: 50.02%
+Sparsity inmodule.layer3.0.conv2.weight: 49.98%
+Sparsity inmodule.layer3.0.shortcut.0.weight: 49.49%
+Sparsity inmodule.layer3.1.conv1.weight: 50.12%
+Sparsity inmodule.layer3.1.conv2.weight: 49.98%
+Sparsity inmodule.layer4.0.conv1.weight: 50.03%
+Sparsity inmodule.layer4.0.conv2.weight: 49.98%
+Sparsity inmodule.layer4.0.shortcut.0.weight: 49.70%
+Sparsity inmodule.layer4.1.conv1.weight: 50.00%
+Sparsity inmodule.layer4.1.conv2.weight: 49.99%
+Sparsity inmodule.linear.weight: 50.76%
+==> List Global Sparsity
+Global sparsity: 50.00%
+
+Epoch: 0
+Epoch Training Time: 23.51654815673828 | Train Loss: 0.373 | Train Acc: 87.326% (43663/50000)
+Running Total Training Time: 23.51654815673828
+Epoch Test Time: 2.4444968700408936 | Test Loss: 0.456 | Test Acc: 85.110% (8511/10000)
+
+Epoch: 1
+Epoch Training Time: 22.310413360595703 | Train Loss: 0.253 | Train Acc: 91.396% (45698/50000)
+Running Total Training Time: 45.826961517333984
+Epoch Test Time: 2.258544921875 | Test Loss: 0.423 | Test Acc: 86.310% (8631/10000)
+
+Epoch: 2
+Epoch Training Time: 22.42834711074829 | Train Loss: 0.217 | Train Acc: 92.416% (46208/50000)
+Running Total Training Time: 68.25530862808228
+Epoch Test Time: 2.2948660850524902 | Test Loss: 0.416 | Test Acc: 87.200% (8720/10000)
+
+Epoch: 3
+Epoch Training Time: 22.232880353927612 | Train Loss: 0.188 | Train Acc: 93.544% (46772/50000)
+Running Total Training Time: 90.48818898200989
+Epoch Test Time: 2.2096333503723145 | Test Loss: 0.361 | Test Acc: 88.700% (8870/10000)
+
+Epoch: 4
+Epoch Training Time: 22.656400680541992 | Train Loss: 0.160 | Train Acc: 94.540% (47270/50000)
+Running Total Training Time: 113.14458966255188
+Epoch Test Time: 2.320586681365967 | Test Loss: 0.369 | Test Acc: 88.480% (8848/10000)
+
+Epoch: 5
+Epoch Training Time: 22.537307500839233 | Train Loss: 0.153 | Train Acc: 94.746% (47373/50000)
+Running Total Training Time: 135.6818971633911
+Epoch Test Time: 2.2823266983032227 | Test Loss: 0.303 | Test Acc: 90.360% (9036/10000)
+
+Epoch: 6
+Epoch Training Time: 22.47327184677124 | Train Loss: 0.141 | Train Acc: 95.266% (47633/50000)
+Running Total Training Time: 158.15516901016235
+Epoch Test Time: 2.3006625175476074 | Test Loss: 0.315 | Test Acc: 90.380% (9038/10000)
+
+Epoch: 7
+Epoch Training Time: 22.337549209594727 | Train Loss: 0.125 | Train Acc: 95.766% (47883/50000)
+Running Total Training Time: 180.49271821975708
+Epoch Test Time: 2.32358455657959 | Test Loss: 0.350 | Test Acc: 89.730% (8973/10000)
+
+Epoch: 8
+Epoch Training Time: 22.50439214706421 | Train Loss: 0.123 | Train Acc: 95.760% (47880/50000)
+Running Total Training Time: 202.9971103668213
+Epoch Test Time: 2.364621877670288 | Test Loss: 0.379 | Test Acc: 88.650% (8865/10000)
+
+Epoch: 9
+Epoch Training Time: 22.48207378387451 | Train Loss: 0.116 | Train Acc: 96.028% (48014/50000)
+Running Total Training Time: 225.4791841506958
+Epoch Test Time: 2.327303171157837 | Test Loss: 0.342 | Test Acc: 89.460% (8946/10000)
+
+Epoch: 10
+Epoch Training Time: 22.486472606658936 | Train Loss: 0.105 | Train Acc: 96.450% (48225/50000)
+Running Total Training Time: 247.96565675735474
+Epoch Test Time: 2.3262863159179688 | Test Loss: 0.328 | Test Acc: 90.560% (9056/10000)
+
+Epoch: 11
+Epoch Training Time: 22.412015438079834 | Train Loss: 0.096 | Train Acc: 96.764% (48382/50000)
+Running Total Training Time: 270.37767219543457
+Epoch Test Time: 2.3923301696777344 | Test Loss: 0.326 | Test Acc: 90.420% (9042/10000)
+
+Epoch: 12
+Epoch Training Time: 22.326409578323364 | Train Loss: 0.100 | Train Acc: 96.538% (48269/50000)
+Running Total Training Time: 292.70408177375793
+Epoch Test Time: 2.321655035018921 | Test Loss: 0.344 | Test Acc: 89.740% (8974/10000)
+
+Epoch: 13
+Epoch Training Time: 22.476141214370728 | Train Loss: 0.099 | Train Acc: 96.578% (48289/50000)
+Running Total Training Time: 315.18022298812866
+Epoch Test Time: 2.33978533744812 | Test Loss: 0.325 | Test Acc: 90.430% (9043/10000)
+
+Epoch: 14
+Epoch Training Time: 22.27714514732361 | Train Loss: 0.091 | Train Acc: 96.922% (48461/50000)
+Running Total Training Time: 337.45736813545227
+Epoch Test Time: 2.350184440612793 | Test Loss: 0.324 | Test Acc: 90.440% (9044/10000)
+
+Epoch: 15
+Epoch Training Time: 22.47524070739746 | Train Loss: 0.089 | Train Acc: 96.906% (48453/50000)
+Running Total Training Time: 359.93260884284973
+Epoch Test Time: 2.3059701919555664 | Test Loss: 0.304 | Test Acc: 90.780% (9078/10000)
+
+Epoch: 16
+Epoch Training Time: 22.47158932685852 | Train Loss: 0.086 | Train Acc: 97.060% (48530/50000)
+Running Total Training Time: 382.40419816970825
+Epoch Test Time: 2.3103339672088623 | Test Loss: 0.312 | Test Acc: 90.700% (9070/10000)
+
+Epoch: 17
+Epoch Training Time: 22.46298623085022 | Train Loss: 0.075 | Train Acc: 97.426% (48713/50000)
+Running Total Training Time: 404.8671844005585
+Epoch Test Time: 2.3597424030303955 | Test Loss: 0.353 | Test Acc: 90.210% (9021/10000)
+
+Epoch: 18
+Epoch Training Time: 22.396798849105835 | Train Loss: 0.078 | Train Acc: 97.368% (48684/50000)
+Running Total Training Time: 427.2639832496643
+Epoch Test Time: 2.308107852935791 | Test Loss: 0.309 | Test Acc: 91.090% (9109/10000)
+
+Epoch: 19
+Epoch Training Time: 22.454564809799194 | Train Loss: 0.080 | Train Acc: 97.308% (48654/50000)
+Running Total Training Time: 449.7185480594635
+Epoch Test Time: 2.3832955360412598 | Test Loss: 0.296 | Test Acc: 91.670% (9167/10000)
+
+Epoch: 20
+Epoch Training Time: 22.440987825393677 | Train Loss: 0.071 | Train Acc: 97.600% (48800/50000)
+Running Total Training Time: 472.1595358848572
+Epoch Test Time: 2.279608726501465 | Test Loss: 0.340 | Test Acc: 90.600% (9060/10000)
+
+Epoch: 21
+Epoch Training Time: 22.358736038208008 | Train Loss: 0.074 | Train Acc: 97.550% (48775/50000)
+Running Total Training Time: 494.5182719230652
+Epoch Test Time: 2.3169350624084473 | Test Loss: 0.330 | Test Acc: 90.640% (9064/10000)
+
+Epoch: 22
+Epoch Training Time: 22.273174047470093 | Train Loss: 0.074 | Train Acc: 97.478% (48739/50000)
+Running Total Training Time: 516.7914459705353
+Epoch Test Time: 2.4112203121185303 | Test Loss: 0.343 | Test Acc: 90.620% (9062/10000)
+
+Epoch: 23
+Epoch Training Time: 22.543321132659912 | Train Loss: 0.071 | Train Acc: 97.640% (48820/50000)
+Running Total Training Time: 539.3347671031952
+Epoch Test Time: 2.328287363052368 | Test Loss: 0.319 | Test Acc: 90.870% (9087/10000)
+
+Epoch: 24
+Epoch Training Time: 22.267609357833862 | Train Loss: 0.066 | Train Acc: 97.756% (48878/50000)
+Running Total Training Time: 561.602376461029
+Epoch Test Time: 2.330091953277588 | Test Loss: 0.318 | Test Acc: 90.830% (9083/10000)
+
+Epoch: 25
+Epoch Training Time: 22.376535415649414 | Train Loss: 0.070 | Train Acc: 97.676% (48838/50000)
+Running Total Training Time: 583.9789118766785
+Epoch Test Time: 2.289433717727661 | Test Loss: 0.339 | Test Acc: 90.560% (9056/10000)
+
+Epoch: 26
+Epoch Training Time: 22.457805395126343 | Train Loss: 0.066 | Train Acc: 97.752% (48876/50000)
+Running Total Training Time: 606.4367172718048
+Epoch Test Time: 2.2909858226776123 | Test Loss: 0.366 | Test Acc: 89.980% (8998/10000)
+
+Epoch: 27
+Epoch Training Time: 22.29975938796997 | Train Loss: 0.064 | Train Acc: 97.824% (48912/50000)
+Running Total Training Time: 628.7364766597748
+Epoch Test Time: 2.283740997314453 | Test Loss: 0.331 | Test Acc: 90.660% (9066/10000)
+
+Epoch: 28
+Epoch Training Time: 22.467215299606323 | Train Loss: 0.064 | Train Acc: 97.848% (48924/50000)
+Running Total Training Time: 651.2036919593811
+Epoch Test Time: 2.3237392902374268 | Test Loss: 0.379 | Test Acc: 90.170% (9017/10000)
+
+Epoch: 29
+Epoch Training Time: 22.436562538146973 | Train Loss: 0.059 | Train Acc: 98.034% (49017/50000)
+Running Total Training Time: 673.6402544975281
+Epoch Test Time: 2.263089656829834 | Test Loss: 0.335 | Test Acc: 90.920% (9092/10000)
+
+Epoch: 30
+Epoch Training Time: 22.374403953552246 | Train Loss: 0.059 | Train Acc: 97.982% (48991/50000)
+Running Total Training Time: 696.0146584510803
+Epoch Test Time: 2.279402494430542 | Test Loss: 0.321 | Test Acc: 91.320% (9132/10000)
+
+Epoch: 31
+Epoch Training Time: 22.376461029052734 | Train Loss: 0.062 | Train Acc: 97.966% (48983/50000)
+Running Total Training Time: 718.391119480133
+Epoch Test Time: 2.287574052810669 | Test Loss: 0.353 | Test Acc: 90.210% (9021/10000)
+
+Epoch: 32
+Epoch Training Time: 22.32559299468994 | Train Loss: 0.060 | Train Acc: 98.088% (49044/50000)
+Running Total Training Time: 740.716712474823
+Epoch Test Time: 2.3057219982147217 | Test Loss: 0.326 | Test Acc: 91.270% (9127/10000)
+
+Epoch: 33
+Epoch Training Time: 22.32688593864441 | Train Loss: 0.058 | Train Acc: 97.990% (48995/50000)
+Running Total Training Time: 763.0435984134674
+Epoch Test Time: 2.2187769412994385 | Test Loss: 0.334 | Test Acc: 90.670% (9067/10000)
+
+Epoch: 34
+Epoch Training Time: 22.28457498550415 | Train Loss: 0.057 | Train Acc: 98.094% (49047/50000)
+Running Total Training Time: 785.3281733989716
+Epoch Test Time: 2.331422805786133 | Test Loss: 0.305 | Test Acc: 91.670% (9167/10000)
+
+Epoch: 35
+Epoch Training Time: 22.64170241355896 | Train Loss: 0.062 | Train Acc: 97.872% (48936/50000)
+Running Total Training Time: 807.9698758125305
+Epoch Test Time: 2.3266918659210205 | Test Loss: 0.322 | Test Acc: 90.890% (9089/10000)
+
+Epoch: 36
+Epoch Training Time: 22.476067066192627 | Train Loss: 0.055 | Train Acc: 98.208% (49104/50000)
+Running Total Training Time: 830.4459428787231
+Epoch Test Time: 2.274904489517212 | Test Loss: 0.337 | Test Acc: 90.740% (9074/10000)
+
+Epoch: 37
+Epoch Training Time: 22.422763109207153 | Train Loss: 0.052 | Train Acc: 98.288% (49144/50000)
+Running Total Training Time: 852.8687059879303
+Epoch Test Time: 2.269235849380493 | Test Loss: 0.325 | Test Acc: 91.240% (9124/10000)
+
+Epoch: 38
+Epoch Training Time: 22.503938674926758 | Train Loss: 0.057 | Train Acc: 98.060% (49030/50000)
+Running Total Training Time: 875.372644662857
+Epoch Test Time: 2.2789511680603027 | Test Loss: 0.321 | Test Acc: 91.380% (9138/10000)
+
+Epoch: 39
+Epoch Training Time: 22.434611082077026 | Train Loss: 0.058 | Train Acc: 98.052% (49026/50000)
+Running Total Training Time: 897.8072557449341
+Epoch Test Time: 2.237123966217041 | Test Loss: 0.330 | Test Acc: 91.060% (9106/10000)
+
+Epoch: 40
+Epoch Training Time: 22.39406394958496 | Train Loss: 0.051 | Train Acc: 98.340% (49170/50000)
+Running Total Training Time: 920.201319694519
+Epoch Test Time: 2.3267548084259033 | Test Loss: 0.329 | Test Acc: 91.280% (9128/10000)
+
+Epoch: 41
+Epoch Training Time: 22.340736389160156 | Train Loss: 0.051 | Train Acc: 98.310% (49155/50000)
+Running Total Training Time: 942.5420560836792
+Epoch Test Time: 2.3067080974578857 | Test Loss: 0.312 | Test Acc: 91.420% (9142/10000)
+
+Epoch: 42
+Epoch Training Time: 22.3721661567688 | Train Loss: 0.054 | Train Acc: 98.158% (49079/50000)
+Running Total Training Time: 964.914222240448
+Epoch Test Time: 2.2816619873046875 | Test Loss: 0.307 | Test Acc: 91.730% (9173/10000)
+
+Epoch: 43
+Epoch Training Time: 22.42153525352478 | Train Loss: 0.052 | Train Acc: 98.280% (49140/50000)
+Running Total Training Time: 987.3357574939728
+Epoch Test Time: 2.2790133953094482 | Test Loss: 0.321 | Test Acc: 91.320% (9132/10000)
+
+Epoch: 44
+Epoch Training Time: 22.277668237686157 | Train Loss: 0.051 | Train Acc: 98.312% (49156/50000)
+Running Total Training Time: 1009.6134257316589
+Epoch Test Time: 2.3129584789276123 | Test Loss: 0.319 | Test Acc: 91.010% (9101/10000)
+
+Epoch: 45
+Epoch Training Time: 22.505793571472168 | Train Loss: 0.047 | Train Acc: 98.442% (49221/50000)
+Running Total Training Time: 1032.119219303131
+Epoch Test Time: 2.3025577068328857 | Test Loss: 0.318 | Test Acc: 91.370% (9137/10000)
+
+Epoch: 46
+Epoch Training Time: 22.19790744781494 | Train Loss: 0.058 | Train Acc: 98.032% (49016/50000)
+Running Total Training Time: 1054.317126750946
+Epoch Test Time: 2.2698700428009033 | Test Loss: 0.318 | Test Acc: 91.150% (9115/10000)
+
+Epoch: 47
+Epoch Training Time: 22.35956859588623 | Train Loss: 0.045 | Train Acc: 98.512% (49256/50000)
+Running Total Training Time: 1076.6766953468323
+Epoch Test Time: 2.364753246307373 | Test Loss: 0.325 | Test Acc: 91.290% (9129/10000)
+
+Epoch: 48
+Epoch Training Time: 22.397782802581787 | Train Loss: 0.044 | Train Acc: 98.604% (49302/50000)
+Running Total Training Time: 1099.074478149414
+Epoch Test Time: 2.3279168605804443 | Test Loss: 0.316 | Test Acc: 91.690% (9169/10000)
+
+Epoch: 49
+Epoch Training Time: 22.26208734512329 | Train Loss: 0.050 | Train Acc: 98.314% (49157/50000)
+Running Total Training Time: 1121.3365654945374
+Epoch Test Time: 2.344794273376465 | Test Loss: 0.312 | Test Acc: 91.700% (9170/10000)
+
+Epoch: 50
+Epoch Training Time: 22.48835849761963 | Train Loss: 0.049 | Train Acc: 98.344% (49172/50000)
+Running Total Training Time: 1143.824923992157
+Epoch Test Time: 2.32818341255188 | Test Loss: 0.315 | Test Acc: 91.460% (9146/10000)
+
+Epoch: 51
+Epoch Training Time: 22.24661612510681 | Train Loss: 0.050 | Train Acc: 98.368% (49184/50000)
+Running Total Training Time: 1166.0715401172638
+Epoch Test Time: 2.282881021499634 | Test Loss: 0.310 | Test Acc: 91.750% (9175/10000)
+
+Epoch: 52
+Epoch Training Time: 22.371187448501587 | Train Loss: 0.047 | Train Acc: 98.430% (49215/50000)
+Running Total Training Time: 1188.4427275657654
+Epoch Test Time: 2.291166305541992 | Test Loss: 0.317 | Test Acc: 91.420% (9142/10000)
+
+Epoch: 53
+Epoch Training Time: 22.31103825569153 | Train Loss: 0.045 | Train Acc: 98.516% (49258/50000)
+Running Total Training Time: 1210.753765821457
+Epoch Test Time: 2.297875165939331 | Test Loss: 0.313 | Test Acc: 91.730% (9173/10000)
+
+Epoch: 54
+Epoch Training Time: 22.577070713043213 | Train Loss: 0.040 | Train Acc: 98.692% (49346/50000)
+Running Total Training Time: 1233.3308365345001
+Epoch Test Time: 2.3333096504211426 | Test Loss: 0.309 | Test Acc: 91.490% (9149/10000)
+
+Epoch: 55
+Epoch Training Time: 22.49679660797119 | Train Loss: 0.042 | Train Acc: 98.670% (49335/50000)
+Running Total Training Time: 1255.8276331424713
+Epoch Test Time: 2.319627523422241 | Test Loss: 0.336 | Test Acc: 91.270% (9127/10000)
+
+Epoch: 56
+Epoch Training Time: 22.328165531158447 | Train Loss: 0.042 | Train Acc: 98.672% (49336/50000)
+Running Total Training Time: 1278.1557986736298
+Epoch Test Time: 2.3129351139068604 | Test Loss: 0.367 | Test Acc: 90.540% (9054/10000)
+
+Epoch: 57
+Epoch Training Time: 22.23265814781189 | Train Loss: 0.046 | Train Acc: 98.518% (49259/50000)
+Running Total Training Time: 1300.3884568214417
+Epoch Test Time: 2.2899622917175293 | Test Loss: 0.330 | Test Acc: 91.470% (9147/10000)
+
+Epoch: 58
+Epoch Training Time: 22.34109115600586 | Train Loss: 0.040 | Train Acc: 98.678% (49339/50000)
+Running Total Training Time: 1322.7295479774475
+Epoch Test Time: 2.3139231204986572 | Test Loss: 0.307 | Test Acc: 91.770% (9177/10000)
+
+Epoch: 59
+Epoch Training Time: 22.39700984954834 | Train Loss: 0.041 | Train Acc: 98.660% (49330/50000)
+Running Total Training Time: 1345.1265578269958
+Epoch Test Time: 2.2751874923706055 | Test Loss: 0.327 | Test Acc: 91.590% (9159/10000)
+
+Epoch: 60
+Epoch Training Time: 22.337348222732544 | Train Loss: 0.042 | Train Acc: 98.646% (49323/50000)
+Running Total Training Time: 1367.4639060497284
+Epoch Test Time: 2.337252378463745 | Test Loss: 0.321 | Test Acc: 91.250% (9125/10000)
+
+Epoch: 61
+Epoch Training Time: 22.219090700149536 | Train Loss: 0.044 | Train Acc: 98.552% (49276/50000)
+Running Total Training Time: 1389.682996749878
+Epoch Test Time: 2.3097403049468994 | Test Loss: 0.302 | Test Acc: 91.860% (9186/10000)
+
+Epoch: 62
+Epoch Training Time: 22.346120357513428 | Train Loss: 0.046 | Train Acc: 98.452% (49226/50000)
+Running Total Training Time: 1412.0291171073914
+Epoch Test Time: 2.307734251022339 | Test Loss: 0.278 | Test Acc: 92.170% (9217/10000)
+
+Epoch: 63
+Epoch Training Time: 22.235051155090332 | Train Loss: 0.038 | Train Acc: 98.744% (49372/50000)
+Running Total Training Time: 1434.2641682624817
+Epoch Test Time: 2.2662436962127686 | Test Loss: 0.300 | Test Acc: 92.210% (9221/10000)
+
+Epoch: 64
+Epoch Training Time: 22.239612102508545 | Train Loss: 0.042 | Train Acc: 98.604% (49302/50000)
+Running Total Training Time: 1456.5037803649902
+Epoch Test Time: 2.3587753772735596 | Test Loss: 0.307 | Test Acc: 91.810% (9181/10000)
+
+Epoch: 65
+Epoch Training Time: 22.589970350265503 | Train Loss: 0.039 | Train Acc: 98.744% (49372/50000)
+Running Total Training Time: 1479.0937507152557
+Epoch Test Time: 2.289163589477539 | Test Loss: 0.296 | Test Acc: 92.250% (9225/10000)
+
+Epoch: 66
+Epoch Training Time: 22.447707176208496 | Train Loss: 0.038 | Train Acc: 98.746% (49373/50000)
+Running Total Training Time: 1501.5414578914642
+Epoch Test Time: 2.3106958866119385 | Test Loss: 0.285 | Test Acc: 92.360% (9236/10000)
+
+Epoch: 67
+Epoch Training Time: 22.635598182678223 | Train Loss: 0.034 | Train Acc: 98.852% (49426/50000)
+Running Total Training Time: 1524.1770560741425
+Epoch Test Time: 2.362656831741333 | Test Loss: 0.323 | Test Acc: 91.500% (9150/10000)
+
+Epoch: 68
+Epoch Training Time: 22.39370560646057 | Train Loss: 0.034 | Train Acc: 98.924% (49462/50000)
+Running Total Training Time: 1546.570761680603
+Epoch Test Time: 2.3178629875183105 | Test Loss: 0.314 | Test Acc: 91.600% (9160/10000)
+
+Epoch: 69
+Epoch Training Time: 22.37043070793152 | Train Loss: 0.041 | Train Acc: 98.608% (49304/50000)
+Running Total Training Time: 1568.9411923885345
+Epoch Test Time: 2.2785630226135254 | Test Loss: 0.325 | Test Acc: 91.360% (9136/10000)
+
+Epoch: 70
+Epoch Training Time: 22.428910732269287 | Train Loss: 0.038 | Train Acc: 98.724% (49362/50000)
+Running Total Training Time: 1591.3701031208038
+Epoch Test Time: 2.271059513092041 | Test Loss: 0.313 | Test Acc: 91.730% (9173/10000)
+
+Epoch: 71
+Epoch Training Time: 22.44011878967285 | Train Loss: 0.030 | Train Acc: 99.040% (49520/50000)
+Running Total Training Time: 1613.8102219104767
+Epoch Test Time: 2.2777061462402344 | Test Loss: 0.287 | Test Acc: 92.150% (9215/10000)
+
+Epoch: 72
+Epoch Training Time: 22.473183155059814 | Train Loss: 0.033 | Train Acc: 98.990% (49495/50000)
+Running Total Training Time: 1636.2834050655365
+Epoch Test Time: 2.2569618225097656 | Test Loss: 0.308 | Test Acc: 91.680% (9168/10000)
+
+Epoch: 73
+Epoch Training Time: 22.348474979400635 | Train Loss: 0.031 | Train Acc: 99.000% (49500/50000)
+Running Total Training Time: 1658.6318800449371
+Epoch Test Time: 2.281200647354126 | Test Loss: 0.291 | Test Acc: 92.060% (9206/10000)
+
+Epoch: 74
+Epoch Training Time: 22.34355640411377 | Train Loss: 0.035 | Train Acc: 98.914% (49457/50000)
+Running Total Training Time: 1680.975436449051
+Epoch Test Time: 2.2736690044403076 | Test Loss: 0.299 | Test Acc: 92.260% (9226/10000)
+
+Epoch: 75
+Epoch Training Time: 22.4875545501709 | Train Loss: 0.036 | Train Acc: 98.840% (49420/50000)
+Running Total Training Time: 1703.4629909992218
+Epoch Test Time: 2.272641897201538 | Test Loss: 0.308 | Test Acc: 91.910% (9191/10000)
+
+Epoch: 76
+Epoch Training Time: 22.30509066581726 | Train Loss: 0.028 | Train Acc: 99.158% (49579/50000)
+Running Total Training Time: 1725.768081665039
+Epoch Test Time: 2.3006105422973633 | Test Loss: 0.296 | Test Acc: 92.090% (9209/10000)
+
+Epoch: 77
+Epoch Training Time: 22.36618185043335 | Train Loss: 0.031 | Train Acc: 98.958% (49479/50000)
+Running Total Training Time: 1748.1342635154724
+Epoch Test Time: 2.2501916885375977 | Test Loss: 0.343 | Test Acc: 91.480% (9148/10000)
+
+Epoch: 78
+Epoch Training Time: 22.433485746383667 | Train Loss: 0.032 | Train Acc: 99.010% (49505/50000)
+Running Total Training Time: 1770.567749261856
+Epoch Test Time: 2.3305840492248535 | Test Loss: 0.321 | Test Acc: 91.790% (9179/10000)
+
+Epoch: 79
+Epoch Training Time: 22.191468715667725 | Train Loss: 0.030 | Train Acc: 99.056% (49528/50000)
+Running Total Training Time: 1792.7592179775238
+Epoch Test Time: 2.2702088356018066 | Test Loss: 0.285 | Test Acc: 92.630% (9263/10000)
+
+Epoch: 80
+Epoch Training Time: 22.594767332077026 | Train Loss: 0.026 | Train Acc: 99.198% (49599/50000)
+Running Total Training Time: 1815.3539853096008
+Epoch Test Time: 2.3073694705963135 | Test Loss: 0.289 | Test Acc: 92.430% (9243/10000)
+
+Epoch: 81
+Epoch Training Time: 22.27832007408142 | Train Loss: 0.027 | Train Acc: 99.164% (49582/50000)
+Running Total Training Time: 1837.6323053836823
+Epoch Test Time: 2.297044515609741 | Test Loss: 0.300 | Test Acc: 92.120% (9212/10000)
+
+Epoch: 82
+Epoch Training Time: 22.362836122512817 | Train Loss: 0.032 | Train Acc: 98.964% (49482/50000)
+Running Total Training Time: 1859.995141506195
+Epoch Test Time: 2.29549241065979 | Test Loss: 0.301 | Test Acc: 92.220% (9222/10000)
+
+Epoch: 83
+Epoch Training Time: 22.39220428466797 | Train Loss: 0.025 | Train Acc: 99.236% (49618/50000)
+Running Total Training Time: 1882.387345790863
+Epoch Test Time: 2.2776434421539307 | Test Loss: 0.318 | Test Acc: 91.770% (9177/10000)
+
+Epoch: 84
+Epoch Training Time: 22.389004468917847 | Train Loss: 0.024 | Train Acc: 99.292% (49646/50000)
+Running Total Training Time: 1904.7763502597809
+Epoch Test Time: 2.2651560306549072 | Test Loss: 0.329 | Test Acc: 91.980% (9198/10000)
+
+Epoch: 85
+Epoch Training Time: 22.315191745758057 | Train Loss: 0.027 | Train Acc: 99.148% (49574/50000)
+Running Total Training Time: 1927.091542005539
+Epoch Test Time: 2.320174217224121 | Test Loss: 0.309 | Test Acc: 92.040% (9204/10000)
+
+Epoch: 86
+Epoch Training Time: 22.43410563468933 | Train Loss: 0.027 | Train Acc: 99.154% (49577/50000)
+Running Total Training Time: 1949.5256476402283
+Epoch Test Time: 2.3127970695495605 | Test Loss: 0.298 | Test Acc: 92.780% (9278/10000)
+
+Epoch: 87
+Epoch Training Time: 22.444019317626953 | Train Loss: 0.022 | Train Acc: 99.374% (49687/50000)
+Running Total Training Time: 1971.9696669578552
+Epoch Test Time: 2.320626974105835 | Test Loss: 0.301 | Test Acc: 92.340% (9234/10000)
+
+Epoch: 88
+Epoch Training Time: 22.3723406791687 | Train Loss: 0.028 | Train Acc: 99.096% (49548/50000)
+Running Total Training Time: 1994.342007637024
+Epoch Test Time: 2.2619435787200928 | Test Loss: 0.344 | Test Acc: 91.310% (9131/10000)
+
+Epoch: 89
+Epoch Training Time: 22.35690212249756 | Train Loss: 0.026 | Train Acc: 99.186% (49593/50000)
+Running Total Training Time: 2016.6989097595215
+Epoch Test Time: 2.2847483158111572 | Test Loss: 0.286 | Test Acc: 92.750% (9275/10000)
+Total Time to Train: 2016.6989097595215
+==> Peforming One-Shot Pruning with Sparsity Ratio of: 0.75
+==> Building model..
+==> Loading Pre-trained Model..
+==> List Names of Layers and Corresponding Params..
+Name of conv layer: module.conv1 | Contained Params: weight
+Name of conv layer: module.layer1.0.conv1 | Contained Params: weight
+Name of conv layer: module.layer1.0.conv2 | Contained Params: weight
+Name of conv layer: module.layer1.1.conv1 | Contained Params: weight
+Name of conv layer: module.layer1.1.conv2 | Contained Params: weight
+Name of conv layer: module.layer2.0.conv1 | Contained Params: weight
+Name of conv layer: module.layer2.0.conv2 | Contained Params: weight
+Name of conv layer: module.layer2.0.shortcut.0 | Contained Params: weight
+Name of conv layer: module.layer2.1.conv1 | Contained Params: weight
+Name of conv layer: module.layer2.1.conv2 | Contained Params: weight
+Name of conv layer: module.layer3.0.conv1 | Contained Params: weight
+Name of conv layer: module.layer3.0.conv2 | Contained Params: weight
+Name of conv layer: module.layer3.0.shortcut.0 | Contained Params: weight
+Name of conv layer: module.layer3.1.conv1 | Contained Params: weight
+Name of conv layer: module.layer3.1.conv2 | Contained Params: weight
+Name of conv layer: module.layer4.0.conv1 | Contained Params: weight
+Name of conv layer: module.layer4.0.conv2 | Contained Params: weight
+Name of conv layer: module.layer4.0.shortcut.0 | Contained Params: weight
+Name of conv layer: module.layer4.1.conv1 | Contained Params: weight
+Name of conv layer: module.layer4.1.conv2 | Contained Params: weight
+Name of linear layer: module.linear | Contained Params: weight
+
+==> Perform Global Pruning..
+==> List Sparsity of Individual Layers..
+Sparsity inmodule.conv1.weight: 74.31%
+Sparsity inmodule.layer1.0.conv1.weight: 74.85%
+Sparsity inmodule.layer1.0.conv2.weight: 74.85%
+Sparsity inmodule.layer1.1.conv1.weight: 75.06%
+Sparsity inmodule.layer1.1.conv2.weight: 74.81%
+Sparsity inmodule.layer2.0.conv1.weight: 74.84%
+Sparsity inmodule.layer2.0.conv2.weight: 75.11%
+Sparsity inmodule.layer2.0.shortcut.0.weight: 75.44%
+Sparsity inmodule.layer2.1.conv1.weight: 74.97%
+Sparsity inmodule.layer2.1.conv2.weight: 75.04%
+Sparsity inmodule.layer3.0.conv1.weight: 75.03%
+Sparsity inmodule.layer3.0.conv2.weight: 75.02%
+Sparsity inmodule.layer3.0.shortcut.0.weight: 74.60%
+Sparsity inmodule.layer3.1.conv1.weight: 74.94%
+Sparsity inmodule.layer3.1.conv2.weight: 74.97%
+Sparsity inmodule.layer4.0.conv1.weight: 74.99%
+Sparsity inmodule.layer4.0.conv2.weight: 75.00%
+Sparsity inmodule.layer4.0.shortcut.0.weight: 74.91%
+Sparsity inmodule.layer4.1.conv1.weight: 75.05%
+Sparsity inmodule.layer4.1.conv2.weight: 74.99%
+Sparsity inmodule.linear.weight: 75.49%
+==> List Global Sparsity
+Global sparsity: 75.00%
+
+Epoch: 0
+Epoch Training Time: 22.394100666046143 | Train Loss: 0.705 | Train Acc: 75.904% (37952/50000)
+Running Total Training Time: 22.394100666046143
+Epoch Test Time: 2.258877754211426 | Test Loss: 0.568 | Test Acc: 80.690% (8069/10000)
+
+Epoch: 1
+Epoch Training Time: 22.386561632156372 | Train Loss: 0.435 | Train Acc: 85.250% (42625/50000)
+Running Total Training Time: 44.780662298202515
+Epoch Test Time: 2.241644859313965 | Test Loss: 0.498 | Test Acc: 83.410% (8341/10000)
+
+Epoch: 2
+Epoch Training Time: 22.406859397888184 | Train Loss: 0.362 | Train Acc: 87.528% (43764/50000)
+Running Total Training Time: 67.1875216960907
+Epoch Test Time: 2.3113300800323486 | Test Loss: 0.406 | Test Acc: 86.470% (8647/10000)
+
+Epoch: 3
+Epoch Training Time: 22.3848397731781 | Train Loss: 0.314 | Train Acc: 89.242% (44621/50000)
+Running Total Training Time: 89.5723614692688
+Epoch Test Time: 2.262770891189575 | Test Loss: 0.401 | Test Acc: 86.740% (8674/10000)
+
+Epoch: 4
+Epoch Training Time: 22.349406719207764 | Train Loss: 0.283 | Train Acc: 90.396% (45198/50000)
+Running Total Training Time: 111.92176818847656
+Epoch Test Time: 2.238389015197754 | Test Loss: 0.439 | Test Acc: 85.770% (8577/10000)
+
+Epoch: 5
+Epoch Training Time: 22.38231611251831 | Train Loss: 0.258 | Train Acc: 91.042% (45521/50000)
+Running Total Training Time: 134.30408430099487
+Epoch Test Time: 2.401488780975342 | Test Loss: 0.364 | Test Acc: 88.150% (8815/10000)
+
+Epoch: 6
+Epoch Training Time: 22.487531661987305 | Train Loss: 0.233 | Train Acc: 92.036% (46018/50000)
+Running Total Training Time: 156.79161596298218
+Epoch Test Time: 2.3342151641845703 | Test Loss: 0.419 | Test Acc: 86.340% (8634/10000)
+
+Epoch: 7
+Epoch Training Time: 22.416240453720093 | Train Loss: 0.217 | Train Acc: 92.444% (46222/50000)
+Running Total Training Time: 179.20785641670227
+Epoch Test Time: 2.2558510303497314 | Test Loss: 0.398 | Test Acc: 87.030% (8703/10000)
+
+Epoch: 8
+Epoch Training Time: 22.452969074249268 | Train Loss: 0.206 | Train Acc: 92.882% (46441/50000)
+Running Total Training Time: 201.66082549095154
+Epoch Test Time: 2.3811519145965576 | Test Loss: 0.389 | Test Acc: 87.620% (8762/10000)
+
+Epoch: 9
+Epoch Training Time: 22.44102191925049 | Train Loss: 0.195 | Train Acc: 93.306% (46653/50000)
+Running Total Training Time: 224.10184741020203
+Epoch Test Time: 2.3427035808563232 | Test Loss: 0.372 | Test Acc: 87.780% (8778/10000)
+
+Epoch: 10
+Epoch Training Time: 22.25961685180664 | Train Loss: 0.182 | Train Acc: 93.708% (46854/50000)
+Running Total Training Time: 246.36146426200867
+Epoch Test Time: 2.2847304344177246 | Test Loss: 0.337 | Test Acc: 89.540% (8954/10000)
+
+Epoch: 11
+Epoch Training Time: 22.45554757118225 | Train Loss: 0.172 | Train Acc: 94.096% (47048/50000)
+Running Total Training Time: 268.8170118331909
+Epoch Test Time: 2.3288443088531494 | Test Loss: 0.341 | Test Acc: 88.940% (8894/10000)
+
+Epoch: 12
+Epoch Training Time: 22.429462432861328 | Train Loss: 0.164 | Train Acc: 94.274% (47137/50000)
+Running Total Training Time: 291.24647426605225
+Epoch Test Time: 2.315253973007202 | Test Loss: 0.324 | Test Acc: 89.420% (8942/10000)
+
+Epoch: 13
+Epoch Training Time: 22.363431215286255 | Train Loss: 0.154 | Train Acc: 94.680% (47340/50000)
+Running Total Training Time: 313.6099054813385
+Epoch Test Time: 2.2899370193481445 | Test Loss: 0.358 | Test Acc: 88.800% (8880/10000)
+
+Epoch: 14
+Epoch Training Time: 22.563669443130493 | Train Loss: 0.153 | Train Acc: 94.678% (47339/50000)
+Running Total Training Time: 336.173574924469
+Epoch Test Time: 2.3189234733581543 | Test Loss: 0.350 | Test Acc: 89.000% (8900/10000)
+
+Epoch: 15
+Epoch Training Time: 22.459379196166992 | Train Loss: 0.140 | Train Acc: 95.210% (47605/50000)
+Running Total Training Time: 358.632954120636
+Epoch Test Time: 2.2654755115509033 | Test Loss: 0.346 | Test Acc: 89.540% (8954/10000)
+
+Epoch: 16
+Epoch Training Time: 22.37093687057495 | Train Loss: 0.138 | Train Acc: 95.322% (47661/50000)
+Running Total Training Time: 381.00389099121094
+Epoch Test Time: 2.3084208965301514 | Test Loss: 0.397 | Test Acc: 88.660% (8866/10000)
+
+Epoch: 17
+Epoch Training Time: 22.438682794570923 | Train Loss: 0.131 | Train Acc: 95.400% (47700/50000)
+Running Total Training Time: 403.44257378578186
+Epoch Test Time: 2.2454299926757812 | Test Loss: 0.379 | Test Acc: 88.760% (8876/10000)
+
+Epoch: 18
+Epoch Training Time: 22.58749270439148 | Train Loss: 0.127 | Train Acc: 95.566% (47783/50000)
+Running Total Training Time: 426.03006649017334
+Epoch Test Time: 2.2870335578918457 | Test Loss: 0.358 | Test Acc: 89.180% (8918/10000)
+
+Epoch: 19
+Epoch Training Time: 22.250088930130005 | Train Loss: 0.125 | Train Acc: 95.668% (47834/50000)
+Running Total Training Time: 448.28015542030334
+Epoch Test Time: 2.295111656188965 | Test Loss: 0.326 | Test Acc: 90.090% (9009/10000)
+
+Epoch: 20
+Epoch Training Time: 22.39187216758728 | Train Loss: 0.120 | Train Acc: 95.864% (47932/50000)
+Running Total Training Time: 470.6720275878906
+Epoch Test Time: 2.31785249710083 | Test Loss: 0.324 | Test Acc: 90.500% (9050/10000)
+
+Epoch: 21
+Epoch Training Time: 22.591516494750977 | Train Loss: 0.115 | Train Acc: 96.096% (48048/50000)
+Running Total Training Time: 493.2635440826416
+Epoch Test Time: 2.359860420227051 | Test Loss: 0.330 | Test Acc: 90.220% (9022/10000)
+
+Epoch: 22
+Epoch Training Time: 22.490433931350708 | Train Loss: 0.113 | Train Acc: 96.086% (48043/50000)
+Running Total Training Time: 515.7539780139923
+Epoch Test Time: 2.289738893508911 | Test Loss: 0.351 | Test Acc: 89.850% (8985/10000)
+
+Epoch: 23
+Epoch Training Time: 22.521443367004395 | Train Loss: 0.108 | Train Acc: 96.268% (48134/50000)
+Running Total Training Time: 538.2754213809967
+Epoch Test Time: 2.3331830501556396 | Test Loss: 0.330 | Test Acc: 90.250% (9025/10000)
+
+Epoch: 24
+Epoch Training Time: 22.391669988632202 | Train Loss: 0.111 | Train Acc: 96.124% (48062/50000)
+Running Total Training Time: 560.6670913696289
+Epoch Test Time: 2.3325154781341553 | Test Loss: 0.330 | Test Acc: 90.240% (9024/10000)
+
+Epoch: 25
+Epoch Training Time: 22.397358417510986 | Train Loss: 0.104 | Train Acc: 96.340% (48170/50000)
+Running Total Training Time: 583.0644497871399
+Epoch Test Time: 2.2864787578582764 | Test Loss: 0.351 | Test Acc: 89.870% (8987/10000)
+
+Epoch: 26
+Epoch Training Time: 22.406084775924683 | Train Loss: 0.101 | Train Acc: 96.558% (48279/50000)
+Running Total Training Time: 605.4705345630646
+Epoch Test Time: 2.2924768924713135 | Test Loss: 0.356 | Test Acc: 89.840% (8984/10000)
+
+Epoch: 27
+Epoch Training Time: 22.591493844985962 | Train Loss: 0.102 | Train Acc: 96.562% (48281/50000)
+Running Total Training Time: 628.0620284080505
+Epoch Test Time: 2.3197906017303467 | Test Loss: 0.322 | Test Acc: 90.440% (9044/10000)
+
+Epoch: 28
+Epoch Training Time: 22.544759035110474 | Train Loss: 0.099 | Train Acc: 96.532% (48266/50000)
+Running Total Training Time: 650.606787443161
+Epoch Test Time: 2.336110830307007 | Test Loss: 0.350 | Test Acc: 89.400% (8940/10000)
+
+Epoch: 29
+Epoch Training Time: 22.46422505378723 | Train Loss: 0.096 | Train Acc: 96.678% (48339/50000)
+Running Total Training Time: 673.0710124969482
+Epoch Test Time: 2.360494613647461 | Test Loss: 0.326 | Test Acc: 90.640% (9064/10000)
+
+Epoch: 30
+Epoch Training Time: 22.529346704483032 | Train Loss: 0.094 | Train Acc: 96.740% (48370/50000)
+Running Total Training Time: 695.6003592014313
+Epoch Test Time: 2.3722386360168457 | Test Loss: 0.344 | Test Acc: 89.930% (8993/10000)
+
+Epoch: 31
+Epoch Training Time: 22.43603801727295 | Train Loss: 0.092 | Train Acc: 96.798% (48399/50000)
+Running Total Training Time: 718.0363972187042
+Epoch Test Time: 2.2935538291931152 | Test Loss: 0.326 | Test Acc: 90.690% (9069/10000)
+
+Epoch: 32
+Epoch Training Time: 22.377681493759155 | Train Loss: 0.091 | Train Acc: 96.844% (48422/50000)
+Running Total Training Time: 740.4140787124634
+Epoch Test Time: 2.302387237548828 | Test Loss: 0.321 | Test Acc: 90.930% (9093/10000)
+
+Epoch: 33
+Epoch Training Time: 22.391420602798462 | Train Loss: 0.086 | Train Acc: 97.108% (48554/50000)
+Running Total Training Time: 762.8054993152618
+Epoch Test Time: 2.3115696907043457 | Test Loss: 0.306 | Test Acc: 90.840% (9084/10000)
+
+Epoch: 34
+Epoch Training Time: 22.363246202468872 | Train Loss: 0.088 | Train Acc: 96.946% (48473/50000)
+Running Total Training Time: 785.1687455177307
+Epoch Test Time: 2.302278518676758 | Test Loss: 0.312 | Test Acc: 91.010% (9101/10000)
+
+Epoch: 35
+Epoch Training Time: 22.141908407211304 | Train Loss: 0.080 | Train Acc: 97.344% (48672/50000)
+Running Total Training Time: 807.310653924942
+Epoch Test Time: 2.440798044204712 | Test Loss: 0.338 | Test Acc: 90.220% (9022/10000)
+
+Epoch: 36
+Epoch Training Time: 22.584314823150635 | Train Loss: 0.083 | Train Acc: 97.152% (48576/50000)
+Running Total Training Time: 829.8949687480927
+Epoch Test Time: 2.395630359649658 | Test Loss: 0.345 | Test Acc: 90.210% (9021/10000)
+
+Epoch: 37
+Epoch Training Time: 22.547029495239258 | Train Loss: 0.083 | Train Acc: 97.202% (48601/50000)
+Running Total Training Time: 852.4419982433319
+Epoch Test Time: 2.3023078441619873 | Test Loss: 0.312 | Test Acc: 91.040% (9104/10000)
+
+Epoch: 38
+Epoch Training Time: 22.432564973831177 | Train Loss: 0.079 | Train Acc: 97.324% (48662/50000)
+Running Total Training Time: 874.8745632171631
+Epoch Test Time: 2.3035531044006348 | Test Loss: 0.345 | Test Acc: 90.000% (9000/10000)
+
+Epoch: 39
+Epoch Training Time: 22.49998712539673 | Train Loss: 0.079 | Train Acc: 97.268% (48634/50000)
+Running Total Training Time: 897.3745503425598
+Epoch Test Time: 2.305271625518799 | Test Loss: 0.319 | Test Acc: 91.040% (9104/10000)
+
+Epoch: 40
+Epoch Training Time: 22.597055196762085 | Train Loss: 0.080 | Train Acc: 97.272% (48636/50000)
+Running Total Training Time: 919.9716055393219
+Epoch Test Time: 2.2919743061065674 | Test Loss: 0.324 | Test Acc: 91.020% (9102/10000)
+
+Epoch: 41
+Epoch Training Time: 22.406718492507935 | Train Loss: 0.076 | Train Acc: 97.422% (48711/50000)
+Running Total Training Time: 942.3783240318298
+Epoch Test Time: 2.322939395904541 | Test Loss: 0.370 | Test Acc: 89.660% (8966/10000)
+
+Epoch: 42
+Epoch Training Time: 22.57616400718689 | Train Loss: 0.077 | Train Acc: 97.428% (48714/50000)
+Running Total Training Time: 964.9544880390167
+Epoch Test Time: 2.3146750926971436 | Test Loss: 0.303 | Test Acc: 91.120% (9112/10000)
+
+Epoch: 43
+Epoch Training Time: 22.343814373016357 | Train Loss: 0.073 | Train Acc: 97.544% (48772/50000)
+Running Total Training Time: 987.2983024120331
+Epoch Test Time: 2.3004980087280273 | Test Loss: 0.345 | Test Acc: 90.120% (9012/10000)
+
+Epoch: 44
+Epoch Training Time: 22.48426127433777 | Train Loss: 0.070 | Train Acc: 97.598% (48799/50000)
+Running Total Training Time: 1009.7825636863708
+Epoch Test Time: 2.3189926147460938 | Test Loss: 0.359 | Test Acc: 90.140% (9014/10000)
+
+Epoch: 45
+Epoch Training Time: 22.462167739868164 | Train Loss: 0.073 | Train Acc: 97.566% (48783/50000)
+Running Total Training Time: 1032.244731426239
+Epoch Test Time: 2.299093246459961 | Test Loss: 0.313 | Test Acc: 91.100% (9110/10000)
+
+Epoch: 46
+Epoch Training Time: 22.52681040763855 | Train Loss: 0.070 | Train Acc: 97.620% (48810/50000)
+Running Total Training Time: 1054.7715418338776
+Epoch Test Time: 2.346775531768799 | Test Loss: 0.315 | Test Acc: 91.240% (9124/10000)
+
+Epoch: 47
+Epoch Training Time: 22.440189838409424 | Train Loss: 0.073 | Train Acc: 97.560% (48780/50000)
+Running Total Training Time: 1077.211731672287
+Epoch Test Time: 2.331982374191284 | Test Loss: 0.326 | Test Acc: 90.760% (9076/10000)
+
+Epoch: 48
+Epoch Training Time: 22.38774800300598 | Train Loss: 0.067 | Train Acc: 97.826% (48913/50000)
+Running Total Training Time: 1099.599479675293
+Epoch Test Time: 2.345531463623047 | Test Loss: 0.332 | Test Acc: 90.540% (9054/10000)
+
+Epoch: 49
+Epoch Training Time: 22.43920660018921 | Train Loss: 0.070 | Train Acc: 97.600% (48800/50000)
+Running Total Training Time: 1122.0386862754822
+Epoch Test Time: 2.2897486686706543 | Test Loss: 0.354 | Test Acc: 90.340% (9034/10000)
+
+Epoch: 50
+Epoch Training Time: 22.385715007781982 | Train Loss: 0.067 | Train Acc: 97.788% (48894/50000)
+Running Total Training Time: 1144.4244012832642
+Epoch Test Time: 2.4082295894622803 | Test Loss: 0.334 | Test Acc: 90.820% (9082/10000)
+
+Epoch: 51
+Epoch Training Time: 22.455785274505615 | Train Loss: 0.067 | Train Acc: 97.720% (48860/50000)
+Running Total Training Time: 1166.8801865577698
+Epoch Test Time: 2.258759021759033 | Test Loss: 0.319 | Test Acc: 91.230% (9123/10000)
+
+Epoch: 52
+Epoch Training Time: 22.56609535217285 | Train Loss: 0.064 | Train Acc: 97.796% (48898/50000)
+Running Total Training Time: 1189.4462819099426
+Epoch Test Time: 2.350541353225708 | Test Loss: 0.306 | Test Acc: 91.290% (9129/10000)
+
+Epoch: 53
+Epoch Training Time: 22.381670475006104 | Train Loss: 0.062 | Train Acc: 97.952% (48976/50000)
+Running Total Training Time: 1211.8279523849487
+Epoch Test Time: 2.3681225776672363 | Test Loss: 0.331 | Test Acc: 90.890% (9089/10000)
+
+Epoch: 54
+Epoch Training Time: 22.391732454299927 | Train Loss: 0.060 | Train Acc: 97.976% (48988/50000)
+Running Total Training Time: 1234.2196848392487
+Epoch Test Time: 2.292881727218628 | Test Loss: 0.310 | Test Acc: 91.610% (9161/10000)
+
+Epoch: 55
+Epoch Training Time: 22.387645483016968 | Train Loss: 0.063 | Train Acc: 97.900% (48950/50000)
+Running Total Training Time: 1256.6073303222656
+Epoch Test Time: 2.3204405307769775 | Test Loss: 0.331 | Test Acc: 91.000% (9100/10000)
+
+Epoch: 56
+Epoch Training Time: 22.35212779045105 | Train Loss: 0.062 | Train Acc: 97.884% (48942/50000)
+Running Total Training Time: 1278.9594581127167
+Epoch Test Time: 2.302675247192383 | Test Loss: 0.321 | Test Acc: 91.260% (9126/10000)
+
+Epoch: 57
+Epoch Training Time: 22.369410753250122 | Train Loss: 0.057 | Train Acc: 98.058% (49029/50000)
+Running Total Training Time: 1301.3288688659668
+Epoch Test Time: 2.306051731109619 | Test Loss: 0.348 | Test Acc: 90.860% (9086/10000)
+
+Epoch: 58
+Epoch Training Time: 22.441066026687622 | Train Loss: 0.060 | Train Acc: 97.986% (48993/50000)
+Running Total Training Time: 1323.7699348926544
+Epoch Test Time: 2.3926050662994385 | Test Loss: 0.324 | Test Acc: 91.040% (9104/10000)
+
+Epoch: 59
+Epoch Training Time: 22.331876754760742 | Train Loss: 0.059 | Train Acc: 98.038% (49019/50000)
+Running Total Training Time: 1346.1018116474152
+Epoch Test Time: 2.3497202396392822 | Test Loss: 0.399 | Test Acc: 89.700% (8970/10000)
+
+Epoch: 60
+Epoch Training Time: 22.331321477890015 | Train Loss: 0.060 | Train Acc: 97.950% (48975/50000)
+Running Total Training Time: 1368.4331331253052
+Epoch Test Time: 2.336235523223877 | Test Loss: 0.327 | Test Acc: 90.870% (9087/10000)
+
+Epoch: 61
+Epoch Training Time: 22.472070932388306 | Train Loss: 0.058 | Train Acc: 98.050% (49025/50000)
+Running Total Training Time: 1390.9052040576935
+Epoch Test Time: 2.39768648147583 | Test Loss: 0.294 | Test Acc: 91.770% (9177/10000)
+
+Epoch: 62
+Epoch Training Time: 22.55382251739502 | Train Loss: 0.056 | Train Acc: 98.122% (49061/50000)
+Running Total Training Time: 1413.4590265750885
+Epoch Test Time: 2.3430864810943604 | Test Loss: 0.338 | Test Acc: 90.790% (9079/10000)
+
+Epoch: 63
+Epoch Training Time: 22.598297357559204 | Train Loss: 0.055 | Train Acc: 98.178% (49089/50000)
+Running Total Training Time: 1436.0573239326477
+Epoch Test Time: 2.342543125152588 | Test Loss: 0.301 | Test Acc: 91.980% (9198/10000)
+
+Epoch: 64
+Epoch Training Time: 22.327488899230957 | Train Loss: 0.053 | Train Acc: 98.234% (49117/50000)
+Running Total Training Time: 1458.3848128318787
+Epoch Test Time: 2.3753724098205566 | Test Loss: 0.360 | Test Acc: 90.670% (9067/10000)
+
+Epoch: 65
+Epoch Training Time: 22.475128173828125 | Train Loss: 0.051 | Train Acc: 98.316% (49158/50000)
+Running Total Training Time: 1480.8599410057068
+Epoch Test Time: 2.2338294982910156 | Test Loss: 0.315 | Test Acc: 91.660% (9166/10000)
+
+Epoch: 66
+Epoch Training Time: 22.594300270080566 | Train Loss: 0.052 | Train Acc: 98.304% (49152/50000)
+Running Total Training Time: 1503.4542412757874
+Epoch Test Time: 2.3949315547943115 | Test Loss: 0.325 | Test Acc: 91.050% (9105/10000)
+
+Epoch: 67
+Epoch Training Time: 22.652853965759277 | Train Loss: 0.051 | Train Acc: 98.362% (49181/50000)
+Running Total Training Time: 1526.1070952415466
+Epoch Test Time: 2.3722031116485596 | Test Loss: 0.303 | Test Acc: 92.060% (9206/10000)
+
+Epoch: 68
+Epoch Training Time: 22.390955924987793 | Train Loss: 0.050 | Train Acc: 98.334% (49167/50000)
+Running Total Training Time: 1548.4980511665344
+Epoch Test Time: 2.3153202533721924 | Test Loss: 0.305 | Test Acc: 91.790% (9179/10000)
+
+Epoch: 69
+Epoch Training Time: 22.708452463150024 | Train Loss: 0.050 | Train Acc: 98.332% (49166/50000)
+Running Total Training Time: 1571.2065036296844
+Epoch Test Time: 2.371818780899048 | Test Loss: 0.314 | Test Acc: 91.520% (9152/10000)
+
+Epoch: 70
+Epoch Training Time: 22.437663793563843 | Train Loss: 0.049 | Train Acc: 98.376% (49188/50000)
+Running Total Training Time: 1593.6441674232483
+Epoch Test Time: 2.3486804962158203 | Test Loss: 0.344 | Test Acc: 90.950% (9095/10000)
+
+Epoch: 71
+Epoch Training Time: 22.512423992156982 | Train Loss: 0.049 | Train Acc: 98.366% (49183/50000)
+Running Total Training Time: 1616.1565914154053
+Epoch Test Time: 2.370742082595825 | Test Loss: 0.307 | Test Acc: 91.690% (9169/10000)
+
+Epoch: 72
+Epoch Training Time: 22.591347694396973 | Train Loss: 0.048 | Train Acc: 98.494% (49247/50000)
+Running Total Training Time: 1638.7479391098022
+Epoch Test Time: 2.356839179992676 | Test Loss: 0.297 | Test Acc: 91.980% (9198/10000)
+
+Epoch: 73
+Epoch Training Time: 22.46170973777771 | Train Loss: 0.043 | Train Acc: 98.626% (49313/50000)
+Running Total Training Time: 1661.20964884758
+Epoch Test Time: 2.3497917652130127 | Test Loss: 0.321 | Test Acc: 91.500% (9150/10000)
+
+Epoch: 74
+Epoch Training Time: 22.639708518981934 | Train Loss: 0.041 | Train Acc: 98.696% (49348/50000)
+Running Total Training Time: 1683.849357366562
+Epoch Test Time: 2.3499202728271484 | Test Loss: 0.356 | Test Acc: 90.770% (9077/10000)
+
+Epoch: 75
+Epoch Training Time: 22.4286847114563 | Train Loss: 0.042 | Train Acc: 98.616% (49308/50000)
+Running Total Training Time: 1706.2780420780182
+Epoch Test Time: 2.3641233444213867 | Test Loss: 0.306 | Test Acc: 91.740% (9174/10000)
+
+Epoch: 76
+Epoch Training Time: 22.409282684326172 | Train Loss: 0.043 | Train Acc: 98.596% (49298/50000)
+Running Total Training Time: 1728.6873247623444
+Epoch Test Time: 2.314988613128662 | Test Loss: 0.319 | Test Acc: 91.670% (9167/10000)
+
+Epoch: 77
+Epoch Training Time: 22.552640914916992 | Train Loss: 0.045 | Train Acc: 98.530% (49265/50000)
+Running Total Training Time: 1751.2399656772614
+Epoch Test Time: 2.468561887741089 | Test Loss: 0.330 | Test Acc: 91.350% (9135/10000)
+
+Epoch: 78
+Epoch Training Time: 22.627904891967773 | Train Loss: 0.043 | Train Acc: 98.602% (49301/50000)
+Running Total Training Time: 1773.8678705692291
+Epoch Test Time: 2.289630889892578 | Test Loss: 0.333 | Test Acc: 91.730% (9173/10000)
+
+Epoch: 79
+Epoch Training Time: 22.546361684799194 | Train Loss: 0.043 | Train Acc: 98.640% (49320/50000)
+Running Total Training Time: 1796.4142322540283
+Epoch Test Time: 2.3247179985046387 | Test Loss: 0.306 | Test Acc: 91.730% (9173/10000)
+
+Epoch: 80
+Epoch Training Time: 22.338409662246704 | Train Loss: 0.041 | Train Acc: 98.634% (49317/50000)
+Running Total Training Time: 1818.752641916275
+Epoch Test Time: 2.231480836868286 | Test Loss: 0.333 | Test Acc: 91.450% (9145/10000)
+
+Epoch: 81
+Epoch Training Time: 22.49965763092041 | Train Loss: 0.039 | Train Acc: 98.768% (49384/50000)
+Running Total Training Time: 1841.2522995471954
+Epoch Test Time: 2.428589344024658 | Test Loss: 0.293 | Test Acc: 92.160% (9216/10000)
+
+Epoch: 82
+Epoch Training Time: 22.50352144241333 | Train Loss: 0.037 | Train Acc: 98.824% (49412/50000)
+Running Total Training Time: 1863.7558209896088
+Epoch Test Time: 2.3542253971099854 | Test Loss: 0.325 | Test Acc: 91.800% (9180/10000)
+
+Epoch: 83
+Epoch Training Time: 22.50563669204712 | Train Loss: 0.038 | Train Acc: 98.750% (49375/50000)
+Running Total Training Time: 1886.2614576816559
+Epoch Test Time: 2.422149419784546 | Test Loss: 0.302 | Test Acc: 92.070% (9207/10000)
+
+Epoch: 84
+Epoch Training Time: 22.669801950454712 | Train Loss: 0.042 | Train Acc: 98.620% (49310/50000)
+Running Total Training Time: 1908.9312596321106
+Epoch Test Time: 2.360487699508667 | Test Loss: 0.319 | Test Acc: 91.340% (9134/10000)
+
+Epoch: 85
+Epoch Training Time: 22.523094415664673 | Train Loss: 0.041 | Train Acc: 98.638% (49319/50000)
+Running Total Training Time: 1931.4543540477753
+Epoch Test Time: 2.2573463916778564 | Test Loss: 0.307 | Test Acc: 91.820% (9182/10000)
+
+Epoch: 86
+Epoch Training Time: 22.442326307296753 | Train Loss: 0.036 | Train Acc: 98.890% (49445/50000)
+Running Total Training Time: 1953.896680355072
+Epoch Test Time: 2.3121304512023926 | Test Loss: 0.339 | Test Acc: 91.230% (9123/10000)
+
+Epoch: 87
+Epoch Training Time: 22.391292572021484 | Train Loss: 0.032 | Train Acc: 99.002% (49501/50000)
+Running Total Training Time: 1976.2879729270935
+Epoch Test Time: 2.3369386196136475 | Test Loss: 0.321 | Test Acc: 91.730% (9173/10000)
+
+Epoch: 88
+Epoch Training Time: 22.375804662704468 | Train Loss: 0.033 | Train Acc: 98.944% (49472/50000)
+Running Total Training Time: 1998.663777589798
+Epoch Test Time: 2.3028290271759033 | Test Loss: 0.332 | Test Acc: 91.540% (9154/10000)
+
+Epoch: 89
+Epoch Training Time: 22.475144386291504 | Train Loss: 0.034 | Train Acc: 98.920% (49460/50000)
+Running Total Training Time: 2021.1389219760895
+Epoch Test Time: 2.4199986457824707 | Test Loss: 0.313 | Test Acc: 91.670% (9167/10000)
+Total Time to Train: 2021.1389219760895
+==> Peforming One-Shot Pruning with Sparsity Ratio of: 0.9
+==> Building model..
+==> Loading Pre-trained Model..
+==> List Names of Layers and Corresponding Params..
+Name of conv layer: module.conv1 | Contained Params: weight
+Name of conv layer: module.layer1.0.conv1 | Contained Params: weight
+Name of conv layer: module.layer1.0.conv2 | Contained Params: weight
+Name of conv layer: module.layer1.1.conv1 | Contained Params: weight
+Name of conv layer: module.layer1.1.conv2 | Contained Params: weight
+Name of conv layer: module.layer2.0.conv1 | Contained Params: weight
+Name of conv layer: module.layer2.0.conv2 | Contained Params: weight
+Name of conv layer: module.layer2.0.shortcut.0 | Contained Params: weight
+Name of conv layer: module.layer2.1.conv1 | Contained Params: weight
+Name of conv layer: module.layer2.1.conv2 | Contained Params: weight
+Name of conv layer: module.layer3.0.conv1 | Contained Params: weight
+Name of conv layer: module.layer3.0.conv2 | Contained Params: weight
+Name of conv layer: module.layer3.0.shortcut.0 | Contained Params: weight
+Name of conv layer: module.layer3.1.conv1 | Contained Params: weight
+Name of conv layer: module.layer3.1.conv2 | Contained Params: weight
+Name of conv layer: module.layer4.0.conv1 | Contained Params: weight
+Name of conv layer: module.layer4.0.conv2 | Contained Params: weight
+Name of conv layer: module.layer4.0.shortcut.0 | Contained Params: weight
+Name of conv layer: module.layer4.1.conv1 | Contained Params: weight
+Name of conv layer: module.layer4.1.conv2 | Contained Params: weight
+Name of linear layer: module.linear | Contained Params: weight
+
+==> Perform Global Pruning..
+==> List Sparsity of Individual Layers..
+Sparsity inmodule.conv1.weight: 89.87%
+Sparsity inmodule.layer1.0.conv1.weight: 89.84%
+Sparsity inmodule.layer1.0.conv2.weight: 89.87%
+Sparsity inmodule.layer1.1.conv1.weight: 90.06%
+Sparsity inmodule.layer1.1.conv2.weight: 90.10%
+Sparsity inmodule.layer2.0.conv1.weight: 89.96%
+Sparsity inmodule.layer2.0.conv2.weight: 90.05%
+Sparsity inmodule.layer2.0.shortcut.0.weight: 90.14%
+Sparsity inmodule.layer2.1.conv1.weight: 89.96%
+Sparsity inmodule.layer2.1.conv2.weight: 89.98%
+Sparsity inmodule.layer3.0.conv1.weight: 90.08%
+Sparsity inmodule.layer3.0.conv2.weight: 89.97%
+Sparsity inmodule.layer3.0.shortcut.0.weight: 90.11%
+Sparsity inmodule.layer3.1.conv1.weight: 90.02%
+Sparsity inmodule.layer3.1.conv2.weight: 89.99%
+Sparsity inmodule.layer4.0.conv1.weight: 90.02%
+Sparsity inmodule.layer4.0.conv2.weight: 90.01%
+Sparsity inmodule.layer4.0.shortcut.0.weight: 90.20%
+Sparsity inmodule.layer4.1.conv1.weight: 89.99%
+Sparsity inmodule.layer4.1.conv2.weight: 89.98%
+Sparsity inmodule.linear.weight: 89.41%
+==> List Global Sparsity
+Global sparsity: 90.00%
+
+Epoch: 0
+Epoch Training Time: 22.514484167099 | Train Loss: 1.406 | Train Acc: 49.176% (24588/50000)
+Running Total Training Time: 22.514484167099
+Epoch Test Time: 2.300708532333374 | Test Loss: 1.059 | Test Acc: 63.650% (6365/10000)
+
+Epoch: 1
+Epoch Training Time: 22.497769832611084 | Train Loss: 0.876 | Train Acc: 69.242% (34621/50000)
+Running Total Training Time: 45.01225399971008
+Epoch Test Time: 2.316633701324463 | Test Loss: 1.080 | Test Acc: 64.250% (6425/10000)
+
+Epoch: 2
+Epoch Training Time: 22.415104150772095 | Train Loss: 0.692 | Train Acc: 76.054% (38027/50000)
+Running Total Training Time: 67.42735815048218
+Epoch Test Time: 2.3371939659118652 | Test Loss: 0.800 | Test Acc: 73.280% (7328/10000)
+
+Epoch: 3
+Epoch Training Time: 22.495169639587402 | Train Loss: 0.593 | Train Acc: 79.516% (39758/50000)
+Running Total Training Time: 89.92252779006958
+Epoch Test Time: 2.3814311027526855 | Test Loss: 0.707 | Test Acc: 76.150% (7615/10000)
+
+Epoch: 4
+Epoch Training Time: 22.50922465324402 | Train Loss: 0.532 | Train Acc: 81.626% (40813/50000)
+Running Total Training Time: 112.4317524433136
+Epoch Test Time: 2.265489101409912 | Test Loss: 0.584 | Test Acc: 79.880% (7988/10000)
+
+Epoch: 5
+Epoch Training Time: 22.394662141799927 | Train Loss: 0.485 | Train Acc: 83.242% (41621/50000)
+Running Total Training Time: 134.82641458511353
+Epoch Test Time: 2.2250263690948486 | Test Loss: 0.525 | Test Acc: 82.350% (8235/10000)
+
+Epoch: 6
+Epoch Training Time: 22.378464460372925 | Train Loss: 0.457 | Train Acc: 84.328% (42164/50000)
+Running Total Training Time: 157.20487904548645
+Epoch Test Time: 2.3254847526550293 | Test Loss: 0.510 | Test Acc: 83.030% (8303/10000)
+
+Epoch: 7
+Epoch Training Time: 22.462717533111572 | Train Loss: 0.425 | Train Acc: 85.368% (42684/50000)
+Running Total Training Time: 179.66759657859802
+Epoch Test Time: 2.4146082401275635 | Test Loss: 0.501 | Test Acc: 83.160% (8316/10000)
+
+Epoch: 8
+Epoch Training Time: 22.53934669494629 | Train Loss: 0.404 | Train Acc: 86.138% (43069/50000)
+Running Total Training Time: 202.2069432735443
+Epoch Test Time: 2.3727190494537354 | Test Loss: 0.529 | Test Acc: 82.180% (8218/10000)
+
+Epoch: 9
+Epoch Training Time: 22.610552549362183 | Train Loss: 0.382 | Train Acc: 86.740% (43370/50000)
+Running Total Training Time: 224.8174958229065
+Epoch Test Time: 2.2784998416900635 | Test Loss: 0.454 | Test Acc: 84.670% (8467/10000)
+
+Epoch: 10
+Epoch Training Time: 22.3709077835083 | Train Loss: 0.365 | Train Acc: 87.422% (43711/50000)
+Running Total Training Time: 247.1884036064148
+Epoch Test Time: 2.384251117706299 | Test Loss: 0.485 | Test Acc: 83.940% (8394/10000)
+
+Epoch: 11
+Epoch Training Time: 22.613401651382446 | Train Loss: 0.350 | Train Acc: 87.824% (43912/50000)
+Running Total Training Time: 269.80180525779724
+Epoch Test Time: 2.3242719173431396 | Test Loss: 0.437 | Test Acc: 85.640% (8564/10000)
+
+Epoch: 12
+Epoch Training Time: 22.725021362304688 | Train Loss: 0.338 | Train Acc: 88.380% (44190/50000)
+Running Total Training Time: 292.52682662010193
+Epoch Test Time: 2.415560007095337 | Test Loss: 0.474 | Test Acc: 84.220% (8422/10000)
+
+Epoch: 13
+Epoch Training Time: 22.335192441940308 | Train Loss: 0.326 | Train Acc: 88.826% (44413/50000)
+Running Total Training Time: 314.86201906204224
+Epoch Test Time: 2.296715497970581 | Test Loss: 0.401 | Test Acc: 86.730% (8673/10000)
+
+Epoch: 14
+Epoch Training Time: 22.47291898727417 | Train Loss: 0.311 | Train Acc: 89.074% (44537/50000)
+Running Total Training Time: 337.3349380493164
+Epoch Test Time: 2.338055372238159 | Test Loss: 0.514 | Test Acc: 83.500% (8350/10000)
+
+Epoch: 15
+Epoch Training Time: 22.35005807876587 | Train Loss: 0.301 | Train Acc: 89.670% (44835/50000)
+Running Total Training Time: 359.6849961280823
+Epoch Test Time: 2.3399648666381836 | Test Loss: 0.429 | Test Acc: 85.650% (8565/10000)
+
+Epoch: 16
+Epoch Training Time: 22.43682551383972 | Train Loss: 0.291 | Train Acc: 89.916% (44958/50000)
+Running Total Training Time: 382.121821641922
+Epoch Test Time: 2.331049919128418 | Test Loss: 0.451 | Test Acc: 85.130% (8513/10000)
+
+Epoch: 17
+Epoch Training Time: 22.465344429016113 | Train Loss: 0.284 | Train Acc: 90.166% (45083/50000)
+Running Total Training Time: 404.5871660709381
+Epoch Test Time: 2.2919883728027344 | Test Loss: 0.434 | Test Acc: 85.980% (8598/10000)
+
+Epoch: 18
+Epoch Training Time: 22.55154585838318 | Train Loss: 0.278 | Train Acc: 90.366% (45183/50000)
+Running Total Training Time: 427.1387119293213
+Epoch Test Time: 2.3344168663024902 | Test Loss: 0.415 | Test Acc: 85.900% (8590/10000)
+
+Epoch: 19
+Epoch Training Time: 22.52628207206726 | Train Loss: 0.268 | Train Acc: 90.650% (45325/50000)
+Running Total Training Time: 449.66499400138855
+Epoch Test Time: 2.30082368850708 | Test Loss: 0.404 | Test Acc: 86.680% (8668/10000)
+
+Epoch: 20
+Epoch Training Time: 22.36316204071045 | Train Loss: 0.264 | Train Acc: 90.862% (45431/50000)
+Running Total Training Time: 472.028156042099
+Epoch Test Time: 2.349329710006714 | Test Loss: 0.486 | Test Acc: 84.610% (8461/10000)
+
+Epoch: 21
+Epoch Training Time: 22.374601364135742 | Train Loss: 0.256 | Train Acc: 91.120% (45560/50000)
+Running Total Training Time: 494.40275740623474
+Epoch Test Time: 2.350189208984375 | Test Loss: 0.429 | Test Acc: 86.290% (8629/10000)
+
+Epoch: 22
+Epoch Training Time: 22.601589679718018 | Train Loss: 0.250 | Train Acc: 91.354% (45677/50000)
+Running Total Training Time: 517.0043470859528
+Epoch Test Time: 2.3340630531311035 | Test Loss: 0.395 | Test Acc: 86.940% (8694/10000)
+
+Epoch: 23
+Epoch Training Time: 22.43772602081299 | Train Loss: 0.238 | Train Acc: 91.724% (45862/50000)
+Running Total Training Time: 539.4420731067657
+Epoch Test Time: 2.29372239112854 | Test Loss: 0.387 | Test Acc: 87.050% (8705/10000)
+
+Epoch: 24
+Epoch Training Time: 22.635061502456665 | Train Loss: 0.233 | Train Acc: 91.854% (45927/50000)
+Running Total Training Time: 562.0771346092224
+Epoch Test Time: 2.290451765060425 | Test Loss: 0.429 | Test Acc: 86.590% (8659/10000)
+
+Epoch: 25
+Epoch Training Time: 22.50291395187378 | Train Loss: 0.237 | Train Acc: 91.818% (45909/50000)
+Running Total Training Time: 584.5800485610962
+Epoch Test Time: 2.3092758655548096 | Test Loss: 0.400 | Test Acc: 87.020% (8702/10000)
+
+Epoch: 26
+Epoch Training Time: 22.36913299560547 | Train Loss: 0.227 | Train Acc: 92.126% (46063/50000)
+Running Total Training Time: 606.9491815567017
+Epoch Test Time: 2.3681142330169678 | Test Loss: 0.365 | Test Acc: 88.290% (8829/10000)
+
+Epoch: 27
+Epoch Training Time: 22.44926428794861 | Train Loss: 0.218 | Train Acc: 92.474% (46237/50000)
+Running Total Training Time: 629.3984458446503
+Epoch Test Time: 2.2699503898620605 | Test Loss: 0.354 | Test Acc: 88.440% (8844/10000)
+
+Epoch: 28
+Epoch Training Time: 22.450308084487915 | Train Loss: 0.218 | Train Acc: 92.396% (46198/50000)
+Running Total Training Time: 651.8487539291382
+Epoch Test Time: 2.2672178745269775 | Test Loss: 0.395 | Test Acc: 87.250% (8725/10000)
+
+Epoch: 29
+Epoch Training Time: 22.362184524536133 | Train Loss: 0.215 | Train Acc: 92.514% (46257/50000)
+Running Total Training Time: 674.2109384536743
+Epoch Test Time: 2.30108904838562 | Test Loss: 0.407 | Test Acc: 87.220% (8722/10000)
+
+Epoch: 30
+Epoch Training Time: 22.471627712249756 | Train Loss: 0.208 | Train Acc: 92.744% (46372/50000)
+Running Total Training Time: 696.6825661659241
+Epoch Test Time: 2.3207077980041504 | Test Loss: 0.388 | Test Acc: 87.540% (8754/10000)
+
+Epoch: 31
+Epoch Training Time: 22.489286184310913 | Train Loss: 0.208 | Train Acc: 92.756% (46378/50000)
+Running Total Training Time: 719.171852350235
+Epoch Test Time: 2.2676947116851807 | Test Loss: 0.391 | Test Acc: 87.380% (8738/10000)
+
+Epoch: 32
+Epoch Training Time: 22.629316806793213 | Train Loss: 0.200 | Train Acc: 93.158% (46579/50000)
+Running Total Training Time: 741.8011691570282
+Epoch Test Time: 2.336257219314575 | Test Loss: 0.423 | Test Acc: 86.870% (8687/10000)
+
+Epoch: 33
+Epoch Training Time: 22.432976245880127 | Train Loss: 0.198 | Train Acc: 93.146% (46573/50000)
+Running Total Training Time: 764.2341454029083
+Epoch Test Time: 2.3584001064300537 | Test Loss: 0.429 | Test Acc: 85.960% (8596/10000)
+
+Epoch: 34
+Epoch Training Time: 22.52828335762024 | Train Loss: 0.200 | Train Acc: 92.974% (46487/50000)
+Running Total Training Time: 786.7624287605286
+Epoch Test Time: 2.3723273277282715 | Test Loss: 0.435 | Test Acc: 86.400% (8640/10000)
+
+Epoch: 35
+Epoch Training Time: 22.54073977470398 | Train Loss: 0.195 | Train Acc: 93.194% (46597/50000)
+Running Total Training Time: 809.3031685352325
+Epoch Test Time: 2.314340829849243 | Test Loss: 0.364 | Test Acc: 88.430% (8843/10000)
+
+Epoch: 36
+Epoch Training Time: 22.320310831069946 | Train Loss: 0.189 | Train Acc: 93.306% (46653/50000)
+Running Total Training Time: 831.6234793663025
+Epoch Test Time: 2.392831563949585 | Test Loss: 0.373 | Test Acc: 88.010% (8801/10000)
+
+Epoch: 37
+Epoch Training Time: 22.635690212249756 | Train Loss: 0.186 | Train Acc: 93.524% (46762/50000)
+Running Total Training Time: 854.2591695785522
+Epoch Test Time: 2.3775694370269775 | Test Loss: 0.372 | Test Acc: 88.200% (8820/10000)
+
+Epoch: 38
+Epoch Training Time: 22.585503101348877 | Train Loss: 0.181 | Train Acc: 93.648% (46824/50000)
+Running Total Training Time: 876.8446726799011
+Epoch Test Time: 2.4192864894866943 | Test Loss: 0.390 | Test Acc: 87.970% (8797/10000)
+
+Epoch: 39
+Epoch Training Time: 22.424652338027954 | Train Loss: 0.180 | Train Acc: 93.686% (46843/50000)
+Running Total Training Time: 899.2693250179291
+Epoch Test Time: 2.3067524433135986 | Test Loss: 0.375 | Test Acc: 88.120% (8812/10000)
+
+Epoch: 40
+Epoch Training Time: 22.481867790222168 | Train Loss: 0.176 | Train Acc: 93.768% (46884/50000)
+Running Total Training Time: 921.7511928081512
+Epoch Test Time: 2.3254599571228027 | Test Loss: 0.371 | Test Acc: 88.400% (8840/10000)
+
+Epoch: 41
+Epoch Training Time: 22.32282567024231 | Train Loss: 0.173 | Train Acc: 93.952% (46976/50000)
+Running Total Training Time: 944.0740184783936
+Epoch Test Time: 2.3892037868499756 | Test Loss: 0.395 | Test Acc: 87.750% (8775/10000)
+
+Epoch: 42
+Epoch Training Time: 22.504230976104736 | Train Loss: 0.169 | Train Acc: 94.146% (47073/50000)
+Running Total Training Time: 966.5782494544983
+Epoch Test Time: 2.324723720550537 | Test Loss: 0.361 | Test Acc: 89.040% (8904/10000)
+
+Epoch: 43
+Epoch Training Time: 22.472358465194702 | Train Loss: 0.170 | Train Acc: 94.084% (47042/50000)
+Running Total Training Time: 989.050607919693
+Epoch Test Time: 2.317379951477051 | Test Loss: 0.394 | Test Acc: 87.910% (8791/10000)
+
+Epoch: 44
+Epoch Training Time: 22.508822441101074 | Train Loss: 0.163 | Train Acc: 94.368% (47184/50000)
+Running Total Training Time: 1011.5594303607941
+Epoch Test Time: 2.34045147895813 | Test Loss: 0.373 | Test Acc: 88.150% (8815/10000)
+
+Epoch: 45
+Epoch Training Time: 22.437209844589233 | Train Loss: 0.160 | Train Acc: 94.444% (47222/50000)
+Running Total Training Time: 1033.9966402053833
+Epoch Test Time: 2.2746593952178955 | Test Loss: 0.364 | Test Acc: 88.690% (8869/10000)
+
+Epoch: 46
+Epoch Training Time: 22.42620539665222 | Train Loss: 0.160 | Train Acc: 94.482% (47241/50000)
+Running Total Training Time: 1056.4228456020355
+Epoch Test Time: 2.3887441158294678 | Test Loss: 0.386 | Test Acc: 88.530% (8853/10000)
+
+Epoch: 47
+Epoch Training Time: 22.425384998321533 | Train Loss: 0.158 | Train Acc: 94.510% (47255/50000)
+Running Total Training Time: 1078.848230600357
+Epoch Test Time: 2.2665417194366455 | Test Loss: 0.353 | Test Acc: 89.010% (8901/10000)
+
+Epoch: 48
+Epoch Training Time: 22.49656653404236 | Train Loss: 0.153 | Train Acc: 94.680% (47340/50000)
+Running Total Training Time: 1101.3447971343994
+Epoch Test Time: 2.3816254138946533 | Test Loss: 0.392 | Test Acc: 88.030% (8803/10000)
+
+Epoch: 49
+Epoch Training Time: 22.379231929779053 | Train Loss: 0.153 | Train Acc: 94.528% (47264/50000)
+Running Total Training Time: 1123.7240290641785
+Epoch Test Time: 2.4036078453063965 | Test Loss: 0.395 | Test Acc: 88.430% (8843/10000)
+
+Epoch: 50
+Epoch Training Time: 22.524744033813477 | Train Loss: 0.151 | Train Acc: 94.758% (47379/50000)
+Running Total Training Time: 1146.248773097992
+Epoch Test Time: 2.2349870204925537 | Test Loss: 0.401 | Test Acc: 88.050% (8805/10000)
+
+Epoch: 51
+Epoch Training Time: 22.110309839248657 | Train Loss: 0.150 | Train Acc: 94.720% (47360/50000)
+Running Total Training Time: 1168.3590829372406
+Epoch Test Time: 2.3346309661865234 | Test Loss: 0.363 | Test Acc: 89.050% (8905/10000)
+
+Epoch: 52
+Epoch Training Time: 22.597808361053467 | Train Loss: 0.146 | Train Acc: 94.854% (47427/50000)
+Running Total Training Time: 1190.956891298294
+Epoch Test Time: 2.296271800994873 | Test Loss: 0.391 | Test Acc: 87.870% (8787/10000)
+
+Epoch: 53
+Epoch Training Time: 22.373711824417114 | Train Loss: 0.148 | Train Acc: 94.788% (47394/50000)
+Running Total Training Time: 1213.3306031227112
+Epoch Test Time: 2.3562872409820557 | Test Loss: 0.360 | Test Acc: 89.100% (8910/10000)
+
+Epoch: 54
+Epoch Training Time: 22.40874695777893 | Train Loss: 0.140 | Train Acc: 95.076% (47538/50000)
+Running Total Training Time: 1235.73935008049
+Epoch Test Time: 2.27287220954895 | Test Loss: 0.397 | Test Acc: 88.390% (8839/10000)
+
+Epoch: 55
+Epoch Training Time: 22.471734762191772 | Train Loss: 0.142 | Train Acc: 95.044% (47522/50000)
+Running Total Training Time: 1258.2110848426819
+Epoch Test Time: 2.2970073223114014 | Test Loss: 0.368 | Test Acc: 88.930% (8893/10000)
+
+Epoch: 56
+Epoch Training Time: 22.399396419525146 | Train Loss: 0.138 | Train Acc: 95.280% (47640/50000)
+Running Total Training Time: 1280.610481262207
+Epoch Test Time: 2.3057053089141846 | Test Loss: 0.350 | Test Acc: 89.650% (8965/10000)
+
+Epoch: 57
+Epoch Training Time: 22.480157613754272 | Train Loss: 0.136 | Train Acc: 95.242% (47621/50000)
+Running Total Training Time: 1303.0906388759613
+Epoch Test Time: 2.3370091915130615 | Test Loss: 0.390 | Test Acc: 88.180% (8818/10000)
+
+Epoch: 58
+Epoch Training Time: 22.331841468811035 | Train Loss: 0.136 | Train Acc: 95.316% (47658/50000)
+Running Total Training Time: 1325.4224803447723
+Epoch Test Time: 2.292574644088745 | Test Loss: 0.375 | Test Acc: 88.790% (8879/10000)
+
+Epoch: 59
+Epoch Training Time: 22.45505952835083 | Train Loss: 0.129 | Train Acc: 95.530% (47765/50000)
+Running Total Training Time: 1347.8775398731232
+Epoch Test Time: 2.370060920715332 | Test Loss: 0.350 | Test Acc: 89.760% (8976/10000)
+
+Epoch: 60
+Epoch Training Time: 22.255555868148804 | Train Loss: 0.127 | Train Acc: 95.578% (47789/50000)
+Running Total Training Time: 1370.133095741272
+Epoch Test Time: 2.369291305541992 | Test Loss: 0.360 | Test Acc: 89.170% (8917/10000)
+
+Epoch: 61
+Epoch Training Time: 22.436559677124023 | Train Loss: 0.130 | Train Acc: 95.468% (47734/50000)
+Running Total Training Time: 1392.569655418396
+Epoch Test Time: 2.351461410522461 | Test Loss: 0.391 | Test Acc: 88.820% (8882/10000)
+
+Epoch: 62
+Epoch Training Time: 22.526058673858643 | Train Loss: 0.127 | Train Acc: 95.538% (47769/50000)
+Running Total Training Time: 1415.0957140922546
+Epoch Test Time: 2.3292574882507324 | Test Loss: 0.357 | Test Acc: 89.440% (8944/10000)
+
+Epoch: 63
+Epoch Training Time: 22.539992570877075 | Train Loss: 0.122 | Train Acc: 95.694% (47847/50000)
+Running Total Training Time: 1437.6357066631317
+Epoch Test Time: 2.2675094604492188 | Test Loss: 0.376 | Test Acc: 88.720% (8872/10000)
+
+Epoch: 64
+Epoch Training Time: 22.4283504486084 | Train Loss: 0.121 | Train Acc: 95.730% (47865/50000)
+Running Total Training Time: 1460.06405711174
+Epoch Test Time: 2.2544848918914795 | Test Loss: 0.344 | Test Acc: 89.790% (8979/10000)
+
+Epoch: 65
+Epoch Training Time: 22.370726585388184 | Train Loss: 0.120 | Train Acc: 95.722% (47861/50000)
+Running Total Training Time: 1482.4347836971283
+Epoch Test Time: 2.21942138671875 | Test Loss: 0.380 | Test Acc: 89.200% (8920/10000)
+
+Epoch: 66
+Epoch Training Time: 22.33577799797058 | Train Loss: 0.125 | Train Acc: 95.492% (47746/50000)
+Running Total Training Time: 1504.7705616950989
+Epoch Test Time: 2.234218120574951 | Test Loss: 0.353 | Test Acc: 89.420% (8942/10000)
+
+Epoch: 67
+Epoch Training Time: 22.565428495407104 | Train Loss: 0.117 | Train Acc: 95.924% (47962/50000)
+Running Total Training Time: 1527.335990190506
+Epoch Test Time: 2.343172550201416 | Test Loss: 0.357 | Test Acc: 89.520% (8952/10000)
+
+Epoch: 68
+Epoch Training Time: 22.46121096611023 | Train Loss: 0.118 | Train Acc: 95.924% (47962/50000)
+Running Total Training Time: 1549.7972011566162
+Epoch Test Time: 2.2768235206604004 | Test Loss: 0.359 | Test Acc: 89.550% (8955/10000)
+
+Epoch: 69
+Epoch Training Time: 22.492825508117676 | Train Loss: 0.118 | Train Acc: 95.934% (47967/50000)
+Running Total Training Time: 1572.290026664734
+Epoch Test Time: 2.27874755859375 | Test Loss: 0.382 | Test Acc: 89.070% (8907/10000)
+
+Epoch: 70
+Epoch Training Time: 22.384546279907227 | Train Loss: 0.113 | Train Acc: 96.114% (48057/50000)
+Running Total Training Time: 1594.674572944641
+Epoch Test Time: 2.3391878604888916 | Test Loss: 0.371 | Test Acc: 89.240% (8924/10000)
+
+Epoch: 71
+Epoch Training Time: 22.43107581138611 | Train Loss: 0.106 | Train Acc: 96.314% (48157/50000)
+Running Total Training Time: 1617.1056487560272
+Epoch Test Time: 2.2352757453918457 | Test Loss: 0.372 | Test Acc: 89.620% (8962/10000)
+
+Epoch: 72
+Epoch Training Time: 22.442021369934082 | Train Loss: 0.109 | Train Acc: 96.182% (48091/50000)
+Running Total Training Time: 1639.5476701259613
+Epoch Test Time: 2.3460583686828613 | Test Loss: 0.371 | Test Acc: 89.210% (8921/10000)
+
+Epoch: 73
+Epoch Training Time: 22.312423944473267 | Train Loss: 0.106 | Train Acc: 96.364% (48182/50000)
+Running Total Training Time: 1661.8600940704346
+Epoch Test Time: 2.2914817333221436 | Test Loss: 0.402 | Test Acc: 88.440% (8844/10000)
+
+Epoch: 74
+Epoch Training Time: 22.391237258911133 | Train Loss: 0.104 | Train Acc: 96.374% (48187/50000)
+Running Total Training Time: 1684.2513313293457
+Epoch Test Time: 2.3079769611358643 | Test Loss: 0.421 | Test Acc: 88.390% (8839/10000)
+
+Epoch: 75
+Epoch Training Time: 22.43378782272339 | Train Loss: 0.106 | Train Acc: 96.328% (48164/50000)
+Running Total Training Time: 1706.685119152069
+Epoch Test Time: 2.3594770431518555 | Test Loss: 0.371 | Test Acc: 89.370% (8937/10000)
+
+Epoch: 76
+Epoch Training Time: 22.415398597717285 | Train Loss: 0.098 | Train Acc: 96.542% (48271/50000)
+Running Total Training Time: 1729.1005177497864
+Epoch Test Time: 2.3135669231414795 | Test Loss: 0.397 | Test Acc: 89.220% (8922/10000)
+
+Epoch: 77
+Epoch Training Time: 22.35467529296875 | Train Loss: 0.102 | Train Acc: 96.476% (48238/50000)
+Running Total Training Time: 1751.4551930427551
+Epoch Test Time: 2.3029448986053467 | Test Loss: 0.372 | Test Acc: 89.260% (8926/10000)
+
+Epoch: 78
+Epoch Training Time: 22.38266372680664 | Train Loss: 0.102 | Train Acc: 96.422% (48211/50000)
+Running Total Training Time: 1773.8378567695618
+Epoch Test Time: 2.280574321746826 | Test Loss: 0.380 | Test Acc: 89.130% (8913/10000)
+
+Epoch: 79
+Epoch Training Time: 22.298274040222168 | Train Loss: 0.100 | Train Acc: 96.554% (48277/50000)
+Running Total Training Time: 1796.136130809784
+Epoch Test Time: 2.2829372882843018 | Test Loss: 0.427 | Test Acc: 88.150% (8815/10000)
+
+Epoch: 80
+Epoch Training Time: 22.490079641342163 | Train Loss: 0.098 | Train Acc: 96.576% (48288/50000)
+Running Total Training Time: 1818.626210451126
+Epoch Test Time: 2.306330442428589 | Test Loss: 0.381 | Test Acc: 88.940% (8894/10000)
+
+Epoch: 81
+Epoch Training Time: 22.268445253372192 | Train Loss: 0.092 | Train Acc: 96.860% (48430/50000)
+Running Total Training Time: 1840.8946557044983
+Epoch Test Time: 2.2215261459350586 | Test Loss: 0.367 | Test Acc: 89.300% (8930/10000)
+
+Epoch: 82
+Epoch Training Time: 22.422574758529663 | Train Loss: 0.092 | Train Acc: 96.798% (48399/50000)
+Running Total Training Time: 1863.317230463028
+Epoch Test Time: 2.292736291885376 | Test Loss: 0.361 | Test Acc: 89.570% (8957/10000)
+
+Epoch: 83
+Epoch Training Time: 22.54295516014099 | Train Loss: 0.088 | Train Acc: 96.922% (48461/50000)
+Running Total Training Time: 1885.860185623169
+Epoch Test Time: 2.4125375747680664 | Test Loss: 0.361 | Test Acc: 89.540% (8954/10000)
+
+Epoch: 84
+Epoch Training Time: 22.5184543132782 | Train Loss: 0.094 | Train Acc: 96.734% (48367/50000)
+Running Total Training Time: 1908.3786399364471
+Epoch Test Time: 2.2671823501586914 | Test Loss: 0.359 | Test Acc: 89.680% (8968/10000)
+
+Epoch: 85
+Epoch Training Time: 22.50590181350708 | Train Loss: 0.085 | Train Acc: 97.128% (48564/50000)
+Running Total Training Time: 1930.8845417499542
+Epoch Test Time: 2.3703453540802 | Test Loss: 0.416 | Test Acc: 88.920% (8892/10000)
+
+Epoch: 86
+Epoch Training Time: 22.55517840385437 | Train Loss: 0.088 | Train Acc: 96.956% (48478/50000)
+Running Total Training Time: 1953.4397201538086
+Epoch Test Time: 2.294895887374878 | Test Loss: 0.385 | Test Acc: 89.420% (8942/10000)
+
+Epoch: 87
+Epoch Training Time: 22.45178461074829 | Train Loss: 0.084 | Train Acc: 97.032% (48516/50000)
+Running Total Training Time: 1975.8915047645569
+Epoch Test Time: 2.338373899459839 | Test Loss: 0.417 | Test Acc: 88.540% (8854/10000)
+
+Epoch: 88
+Epoch Training Time: 22.375731468200684 | Train Loss: 0.083 | Train Acc: 97.218% (48609/50000)
+Running Total Training Time: 1998.2672362327576
+Epoch Test Time: 2.3000071048736572 | Test Loss: 0.360 | Test Acc: 89.990% (8999/10000)
+
+Epoch: 89
+Epoch Training Time: 22.517875909805298 | Train Loss: 0.084 | Train Acc: 97.138% (48569/50000)
+Running Total Training Time: 2020.7851121425629
+Epoch Test Time: 2.336764335632324 | Test Loss: 0.372 | Test Acc: 89.650% (8965/10000)
+Total Time to Train: 2020.7851121425629
